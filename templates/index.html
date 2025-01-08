@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confidential & Co.</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
     
 </head>
 <body>
     <header>
-        <img src="images/logo_black.png" alt="Logo" class="logo">
+        <img src="{{ url_for('static', filename='images/logo_black.png')}}" alt="Logo" class="logo">
     </header>
 
     <section class="intro-section">
@@ -24,27 +24,27 @@
         <h2 class="core-title">Core Values</h2>
         <div class="core-values">
             <div class="value-card">
-                <img src="images/fist.png" alt="Be Revolutionary">
+                <img src="{{ url_for('static', filename='images/fist.png')}}" alt="Be Revolutionary">
                 <h3>Be Revolutionary</h3>
                 <p>Innovate and iterate tirelessly.</p>
             </div>
             <div class="value-card">
-                <img src="images/bulb.png" alt="Be Curious">
+                <img src="{{ url_for('static', filename='images/bulb.png')}}" alt="Be Curious">
                 <h3>Be Curious</h3>
                 <p>Continuously observe and explore for fresh insights.</p>
             </div>
             <div class="value-card">
-                <img src="images/love.png" alt="Be Empathetic">
+                <img src="{{ url_for('static', filename='images/love.png')}}" alt="Be Empathetic">
                 <h3>Be Empathetic</h3>
                 <p>Build genuine empathy, aligning with shared values and customer needs.</p>
             </div>
             <div class="value-card">
-                <img src="images/friend.png" alt="Be Impactful">
+                <img src="{{ url_for('static', filename='images/friend.png')}}" alt="Be Impactful">
                 <h3>Be Impactful</h3>
                 <p>Turn insights into solutions and measurable outcomes.</p>
             </div>
             <div class="value-card">
-                <img src="images/lock.png" alt="Be Confidential">
+                <img src="{{ url_for('static', filename='images/lock.png')}}" alt="Be Confidential">
                 <h3>Be Confidential</h3>
                 <p>Protect company and individual integrity, prioritize discretion.</p>
             </div>
