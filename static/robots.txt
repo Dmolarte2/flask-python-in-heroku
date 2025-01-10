@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /templates/index3-copy.html
+Disallow: /templates/index1.html
+Disallow: /templates/index3.html
+Disallow: /templates/trial1.html
+Allow: /
+Sitemap: https://ownaura.com/sitemap.xml
