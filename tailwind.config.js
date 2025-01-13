@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./templates/*"],
   theme: {
-    extend: {},
+    extend: {
+      scrollBehavior: ['smooth'],
+    },
   },
   plugins: [],
 }
